@@ -12,7 +12,7 @@ const ManazeInventories = () => {
         navigate(`/products/${id}`)
     }
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://pacific-atoll-00696.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setInventory(data))
     }, [])
@@ -20,7 +20,7 @@ const ManazeInventories = () => {
     const deleteItem = (id) => {
         const proced = window.confirm('Are You Sure')
         if (proced === true) {
-            fetch(`http://localhost:5000/products/${id}`, {
+            fetch(`https://pacific-atoll-00696.herokuapp.com/products/${id}`, {
                 method: 'DELETE',
             })
                 .then((response) => response.json(id))

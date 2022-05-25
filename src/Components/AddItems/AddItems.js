@@ -19,7 +19,7 @@ const AddItems = () => {
       img: e.target.img.value,
     };
 
-    fetch("http://localhost:5000/addItem", {
+    fetch("https://pacific-atoll-00696.herokuapp.com/addItem", {
       method: "POST",
       body: JSON.stringify(item),
       headers: {

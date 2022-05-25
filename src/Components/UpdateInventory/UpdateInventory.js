@@ -7,7 +7,7 @@ const UpdateInventory = () => {
     const [inventory, setInventory] = useState({})
     let { img, name, price, quantity, description, supplier } = inventory
     useEffect(() => {
-        fetch(`http://localhost:5000/products/${id}`)
+        fetch(`https://pacific-atoll-00696.herokuapp.com/products/${id}`)
             .then(res => res.json())
             .then(data => setInventory(data))
     }, [])
@@ -16,7 +16,7 @@ const UpdateInventory = () => {
         let updatedQuantity = parseFloat(+ inventory.quantity) + parseFloat(e.target.updateQuantity.value)
         let newInventory = { img, name, price, quantity: updatedQuantity, description, supplier }
         setInventory(newInventory)
-        fetch(`http://localhost:5000/products/${id}`, {
+        fetch(`https://pacific-atoll-00696.herokuapp.com/products/${id}`, {
             method: 'PUT',
             body: JSON.stringify(newInventory),
             headers: {
@@ -36,7 +36,7 @@ const UpdateInventory = () => {
             let Remaining = parseFloat(+ inventory.quantity) - 1
             let newInventory = { img, name, price, quantity: Remaining, description, supplier }
             setInventory(newInventory)
-            fetch(`http://localhost:5000/products/${id}`, {
+            fetch(`https://pacific-atoll-00696.herokuapp.com/products/${id}`, {
                 method: 'PUT',
                 body: JSON.stringify(newInventory),
                 headers: {

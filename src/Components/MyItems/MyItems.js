@@ -20,7 +20,7 @@ const MyItems = () => {
   useEffect(() => {
     const email = user?.email;
     
-    fetch(`http://localhost:5000/orders?email=${email}`)
+    fetch(`https://pacific-atoll-00696.herokuapp.com/orders?email=${email}`)
       .then((res) => {
         return res.json();
       })
@@ -34,7 +34,7 @@ const MyItems = () => {
   };
 
   const deleteItem = (id) => {
-    fetch(`http://localhost:5000/products/${id}`, {
+    fetch(`https://pacific-atoll-00696.herokuapp.com/products/${id}`, {
       method: "DELETE",
     })
       .then((response) => response.json(id))

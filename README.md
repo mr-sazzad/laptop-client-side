@@ -1,7 +1,8 @@
 # Getting Started with Laptop Website
 
 Laptop [client side ripo link](https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-mr-sazzad).
-Laptop client side [Create React App](https://github.com/facebook/create-react-app).
+Laptop [Server side ripo link](https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-mr-sazzad).
+Laptop [Live site Link](https://laptop-24af0.web.app/blogs).
 
 ## Available pages on this project
 
