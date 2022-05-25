@@ -2,7 +2,7 @@ import React from 'react';
 import Banner from './Banner';
 import BecomeSupplyer from './BecomeSupplyer';
 import HomeInventory from './HomeInventory';
-import OurSupplyers from './OurSupplyers';
+import OurSupplyers from './OurSuppoiers/OurSupplyers';
 
 const Home = () => {
     return (
