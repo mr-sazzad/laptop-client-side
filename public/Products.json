@@ -1,0 +1,63 @@
+[
+  {
+    "_id": 1,
+    "name": "Samsung-Galaxy-Book",
+    "price": "90000",
+    "quantity": 12,
+    "supplier": "J.Doe ",
+    "description": "I have lot of experience and i capture over one thousand unbelievable pictures",
+    "img": "https://images.samsung.com/is/image/samsung/ie-galaxy-book-s-intel-np767-np767xcm-k02uk-frontgold-thumb-249540564?$480_480_PNG$"
+  },
+  {
+    "_id": 2,
+    "name": "hp-spectre-13-3",
+    "price": "100000",
+    "quantity": 15,
+    "supplier": "J.smith ",
+    "description": "I am a professional video shutter and i have a big studio for shuting video",
+    "img": "https://www.virtualizados.net/wp-content/uploads/2021/05/hauwei-matebook-x-pro-2021-portada.jpg"
+  },
+  {
+    "_id": 3,
+    "name": "MateBook-14s",
+    "price": "130000",
+    "quantity": 9,
+    "supplier": "Sakib",
+    "description": "I learned photo edit few month ago and i have basic idea for this type of work",
+    "img": "https://magento.senq.com.my/media/catalog/product/h/u/huawei_mbook14s-i5s_gry_2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width="
+  },
+  {
+    "_id": 4,
+    "name": "hauwei-matebook-x-pro",
+    "price": "140000",
+    "quantity": 17,
+    "supplier": "Sakib ",
+    "description": "i am not great for video edit but i will try for best video ",
+    "img": "https://shop-cdn.huawei.com/my/pms/product/6941487214549/800_800_91A0166DC9C3A3EB1CEABBCE8F259E2CBF30E8C3FDB5BDF3mp.webp"
+  },
+  {
+    "_id": 5,
+    "name": "Huawei-MateBook-16",
+    "price": "140000",
+    "quantity": 17,
+    "supplier": "J.Doe",
+    "description": "i am not great for video edit but i will try for best video ",
+    "img": "https://www.giztop.com/media/catalog/product/cache/dc206057cdd42d7e34b9d36e347785ca/h/u/huawei_matebook_16-grey2.png"
+  },
+  {
+    "_id": 6,
+    "name": "Huawei-MateBook",
+    "price": "140000",
+    "quantity": 17,
+    "supplier": "J.smith ",
+    "img": "https://i0.wp.com/voonze.com/wp-content/uploads/2022/02/Huawei-MateBook-16-e1645790641969.jpg?ssl=1"
+  },
+  {
+    "_id": 7,
+    "name": "Huawei-MateBook",
+    "price": "140000",
+    "quantity": 17,
+    "supplier": "J.smith ",
+    "img": "https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/10/Huawei-Matebook-13S-resena-espanol.jpg?fit=1280%2C720&quality=80&ssl=1"
+  }
+]
